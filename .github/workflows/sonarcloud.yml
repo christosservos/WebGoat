@@ -22,3 +22,6 @@ jobs:
             -Dsonar.projectKey=christosservos_WebGoat
             -Dsonar.organization=christosservos
             -Dsonar.host.url=https://sonarcloud.io
+      - name: test npm
+        run: |
+            which npm
