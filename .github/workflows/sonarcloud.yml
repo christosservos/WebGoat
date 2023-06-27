@@ -25,3 +25,5 @@ jobs:
       - name: test npm
         run: |
             which npm
+            which node
+            which nodejs
